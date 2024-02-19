@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse; 
+    width: 50vw;
+}
+table,th,td{
+    border: 1px solid lightgray;
+}
+th, td{
+    padding: 5px;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+td:nth-child(3){
+    text-align:right;
+}
+tr:nth-child(7) td:nth-child(2){
+    text-align: right;
+}
+
+
+
+
